@@ -1,0 +1,120 @@
+
+/*general styles */
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: #C00;
+    opacity: 0.9;
+}
+
+/*menus styles */
+
+#menu{
+    width: 100%;
+  
+    background-color:#262626;
+    position: fixed;
+    z-index: 10;
+}
+
+nav#menu > .col-1-2{
+    width: 50%;
+    float:left;
+}
+
+nav#menu > .col-1-2 > .logo{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    
+}
+
+
+
+
+nav#menu >.col-1-2 > ul{
+    text-align: right;
+    
+}
+
+nav#menu >.col-1-2 >ul > li.menu-item{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+nav#menu .col-1-2 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+nav#menu .col-1-2 ul li a:hover{
+    color:white;
+}
+ 
+/*koniec menu*/
+
+
+/*header początek*/
+
+header#main-header{
+    height: 90vh;
+    position: relative;
+    background-image: url(gym.jpeg);
+    background-size: cover;
+    background-position: center;
+    top:58px;
+}
+
+#main-header #header-caption{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top: 60%;
+    right: 5%;
+    opacity: 0.8;
+/*    transform: translate(-70%, -70%);*/
+}
+#main-header #header-caption h1{
+    font-size: 2em;
+   
+}
+
+#main-header #header-caption h2{
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
