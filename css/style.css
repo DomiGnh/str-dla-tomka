@@ -5,11 +5,17 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    color:#262626;
 }
 
 span{
     color: #C00;
     opacity: 0.9;
+}
+
+.col-1-2{
+    width:50%;
+    float:left;
 }
 
 /*menus styles */
@@ -22,17 +28,12 @@ span{
     z-index: 10;
 }
 
-nav#menu > .col-1-2{
-    width: 50%;
-    float:left;
-}
 
 nav#menu > .col-1-2 > .logo{
     color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     
 }
-
 
 
 
@@ -80,11 +81,15 @@ header#main-header{
 }
 #main-header #header-caption h1{
     font-size: 2em;
+    color: white;
+    
    
 }
 
 #main-header #header-caption h2{
     font-size: 0.8em;
+    color: white;
+    line-height: 1.5em;
 }
 
 /*koniec sekcji  header styles */
@@ -95,7 +100,7 @@ header#main-header{
 
 section#services{
     margin-top: 10%;
-    height: 30vh;
+    height: 60vh;
 /*    margin-left: 25%;*/
 }
 
@@ -103,6 +108,7 @@ section#services .services-icon{
     text-align: center;
     width: 33%;
     float: left;
+    margin-top:9%;
 }
 
 
@@ -124,6 +130,11 @@ section#services .services-icon i.fa{
 }
 
 
+section#services .services-icon i.fa:hover{
+    transform: scale(4);
+}
+
+
 
 section#services .napis{
     width: 33%;
@@ -139,6 +150,60 @@ section#services .plan{
     padding-left: 93px;
     
 }
+/*koniec sekcji services*/
+
+/*sekcja about*/
+section#about{
+    height: 60vh;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+section#about > h1{
+    font-size: 2.5em;
+}
+
+
+section#about img{
+    width: 400px;
+    height: 280px ;
+    border: 2px solid #262626;
+    border-radius: 10px;
+        margin-top: 50px;
+}
+
+
+section#about div p 
+{
+    font-weight: 300;
+    line-height: 25px;
+    padding: 40px 50px 30px 30px;
+}
+
+/*
+section#social-icons{
+    width:25%;
+    float:left;
+    
+}
+*/
+
+section#social-icons a i{
+    display:inline-block;
+    color: #fff;
+    background-color: #262626;
+    width: 50px;
+    height: 50px;
+    text-align:center;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+
 
 
 
